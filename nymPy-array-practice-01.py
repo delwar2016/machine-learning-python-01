@@ -40,5 +40,9 @@ a = np.linspace(0, 1, 5, endpoint=True)
 print('start, end, num-points, endpoint = false', a)
 
 
+# Indexing and slicing
+a = np.arange(10)
+print('Reverse', a[::-1])
+
 
 
