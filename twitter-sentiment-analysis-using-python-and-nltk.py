@@ -22,12 +22,6 @@ for (words, sentiment) in pos_tweets + neg_tweets:
     tweets.append((words_filtered, sentiment))
 
 
-test_tweets = [
-    (['feel', 'happy', 'this', 'morning'], 'positive'),
-    (['larry', 'friend'], 'positive'),
-    (['not', 'like', 'that', 'man'], 'negative'),
-    (['house', 'not', 'great'], 'negative'),
-    (['your', 'song', 'annoying'], 'negative')]
 
 import nltk
 from operator import itemgetter
